@@ -13,9 +13,9 @@
 - Integrasi dengan Github
 1. Create New Repository
 2. Hubungkan ke Github : 
-git remote add origin
+- - git remote add origin
 https://github.com/NamaUserKamu/namaRepository.git
-git branch -M main
-3. Push Project ke Github
-git push -u origin main
+- - git branch -M main
+3. Push Project ke Github : 
+- - git push -u origin main
 
