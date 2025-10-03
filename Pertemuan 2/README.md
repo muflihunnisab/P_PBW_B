@@ -16,7 +16,7 @@ form HTML.
 
 ## Tampilan Aplikasi
 **Tampilan Awal Form**
-![Tampilan Awal Form](image-2.png)
+![Tampilan Awal](image-2.png)
 
 **Tampilan Setelah Pendaftaran Berhasil**
 ![Tampilan Success](image.png)
