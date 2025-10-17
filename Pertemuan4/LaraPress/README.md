@@ -2,19 +2,31 @@
 
 ## Langkah-Langkah
 1. Pastikan berada di folder yang sesuai <br>
-```cd LaraPress```
+```bash
+   cd LaraPress
+```
 2. Jalankan perintah 'composer require laravel/breeze --dev'<br>
-```composer require laravel/breeze --dev```
+```bash
+   composer require laravel/breeze --dev
+```
 3. Jalankan perintah untuk menginstall breeze<br>
-```php artisan breeze:install```
+```bash
+   php artisan breeze:install
+```
 - Ketik 'blade' untuk Blade with Alpine
 - Ketik 'No' untuk Dark Mode Support
 - Ketik '0' untuk Pest
 4. Install dependencies frontend menggunakan perintah 'npm install' lalu 'npm run dev'<br>
-```npm install```
-```npm run dev```
+```bash
+   npm install
+```
+```bash 
+   npm run dev
+```
 5. Jalankan perintah 'php artisan migrate' untuk menambahkan kolom remember_token ke tabel users dan membuat tabel password_reset_tokens <br>
-```php artisan migrate```
+```bash 
+   php artisan migrate
+```
 6. Tampilan Page Login ketika sudah berhasil
 ![Login](image.png)
 
