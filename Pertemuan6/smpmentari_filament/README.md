@@ -81,11 +81,11 @@
 11. Edit Migrasi  
     <span style="color:gray">Edit pada database/migrations/ xxxx_xx_xx_xxxxxx_create_kegiatans_table.php</span>
     <br> 
-    <img src="image-1.png" alt="Migrations : Kegiatan Table" width="400">
+    <img src="Image/image-1.png" alt="Migrations : Kegiatan Table" width="500">
 
     <span style="color:gray">Edit pada database/migrations/xxxx_xx_xx_xxxxxx_create_siswa_table.php</span>
     <br> 
-    <img src="image.png" alt="Migration : Siswa Table" width="400">
+    <img src="Image/image.png" alt="Migration : Siswa Table" width="500">
 
 
 Jalankan Migrasi   
@@ -108,48 +108,48 @@ Jalankan Migrasi
 13. Form & Tabel Kegiatan
     <span style="color:gray">Edit app/filament/Resource/Kegiatans/KegiatanResource.php</span>
     <br> 
-    <img src="image-2.png" alt="KegiatanResource.php" width="400">
+    <img src="Image/image-2.png" alt="KegiatanResource.php" width="500">
 
     <br>
 
     <span style="color:gray">Edit app/filament/Resource/Kegiatans/Schemas/KegiatansForm.php</span>
     <br> 
-    <img src="image-3.png" alt="KegiatansForm.php" width="400">
+    <img src="Image/image-3.png" alt="KegiatansForm.php" width="500">
 
     <br> 
 
     <span style="color:gray">Edit app/filament/Resource/Kegiatans/Tables/KegiatansTable.php</span>
     <br> 
-    <img src="image-4.png" alt="KegiatansTable.php" width="400">
+    <img src="Image/image-4.png" alt="KegiatansTable.php" width="500">
 
 14. Form & Tabel Siswa 
     <span style="color:gray">Edit app/filament/Resource/Siswas/SiswaResource.php</span>
     <br> 
-    <img src="image-5.png" alt="SiswaResource.php" width="400">
+    <img src="Image/image-5.png" alt="SiswaResource.php" width="500">
 
     <br>
 
     <span style="color:gray">Edit app/filament/Resource/Siswas/Schemas/SiswaForm.php</span>
     <br> 
-    <img src="image-6.png" alt="SiswaForm.php" width="400">
+    <img src="Image/image-6.png" alt="SiswaForm.php" width="500">
 
     <br> 
 
     <span style="color:gray">Edit app/filament/Resource/Siswa/Tables/SiswaTable.php</span>
     <br> 
-    <img src="image-7.png" alt="SiswaTable.php" width="400">
+    <img src="Image/image-7.png" alt="SiswaTable.php" width="500">
 
     <br> 
 
     <span style="color:gray">Edit app/Models/Kegiatan.php</span>
     <br> 
-    <img src="image-8.png" alt="Kegiatan.php" width="400">
+    <img src="Image/image-8.png" alt="Kegiatan.php" width="500">
 
     <br> 
 
     <span style="color:gray">Edit app/Models/Siswa.php</span>
     <br> 
-    <img src="image-9.png" alt="Siswa.php" width="400">
+    <img src="Image/image-9.png" alt="Siswa.php" width="500">
 
 15. Branding Panel : Identitas SMP Mentari  
 Buka app/Providers/Filament/AdminPanelProvider.php dan tambahkan :
@@ -175,12 +175,12 @@ Pada routes/web.php
 ```
 
 Lalu pada resources/views/kegiatan-public.blade.php  
-<img src="image-10.png" alt="kegiatan-public" width="400">
+<img src="Image/image-10.png" alt="kegiatan-public" width="500">
 
 <br>
 
 dan resources/views/layouts/app.blade.php  
-<img src="image-11.png" alt="app" width="400">
+<img src="Image/image-11.png" alt="app" width="500">
 
 > Pastikan sudah menjalankan 
 ```bash
@@ -193,12 +193,12 @@ dan resources/views/layouts/app.blade.php
 ## View
 1. Login  
 <br>
-![Login](image-12.png)
+![Login](Image/image-12.png)
 
 2. Admin
 <br>
-![Login](image-13.png)
+![Login](Image/image-13.png)
 
 3. Kegiatan
 <br>
-![Login](image-14.png)
+![Login](Image/image-14.png)
