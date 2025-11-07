@@ -47,35 +47,44 @@
 ```bash
    php artisan filament:install --panels
 
-   > What is the panel’s ID?(admin)
+   # What is the panel’s ID?(admin)
 ```
 
 7. Buat Akun filament
 
 ```bash
     php artisan make:filament-user
+
+    # Ikuti prompt: name (admin), email(admin@example.com), password(admin123)
 ```
 
-8. Jalankan menggunakan
+8. Link storage untuk upload file
+```bash
+    php artisan storage:link
+```
+
+9. Jalankan menggunakan
 
 ```bash
     php artisan serve
 
-    > Akses :  http://localhost:8000/admin
+    # Akses :  http://localhost:8000/admin
 ```
 
-9. Buat Model & Migrasi
+10. Buat Model & Migrasi
 
 ```bash
     php artisan make:model Kegiatan -m
     php artisan make:model Siswa -m
 ```
 
-10. Edit Migrasi  
+11. Edit Migrasi  
     <span style="color:gray">Edit pada database/migrations/ xxxx_xx_xx_xxxxxx_create_kegiatans_table.php</span>
+    <br> 
     <img src="image-1.png" alt="Migrations : Kegiatan Table" width="250">
 
     <span style="color:gray">Edit pada database/migrations/xxxx_xx_xx_xxxxxx_create_siswa_table.php</span>
+    <br> 
     <img src="image.png" alt="Migration : Siswa Table" width="250">
 
 
@@ -85,7 +94,7 @@ Jalankan Migrasi
 ```
 <br>
 
-11. Generate Filament Resource (CRUD Otomatis)
+12. Generate Filament Resource (CRUD Otomatis)
 ```bash
     php artisan make:filament-resource Kegiatan --generate  
     php artisan make:filament-resource Siswa --generate
@@ -96,45 +105,53 @@ Jalankan Migrasi
     3. app/Filament/Resources/SiswaResource.php 
     4. app/Filament/Resources/SiswaResource/Pages/{Create,Edit,List}Siswas.php
 
-12. Form & Tabel Kegiatan
+13. Form & Tabel Kegiatan
     <span style="color:gray">Edit app/filament/Resource/Kegiatans/KegiatanResource.php</span>
+    <br> 
     <img src="image-2.png" alt="KegiatanResource.php" width="250">
 
     <br>
 
     <span style="color:gray">Edit app/filament/Resource/Kegiatans/Schemas/KegiatansForm.php</span>
+    <br> 
     <img src="image-3.png" alt="KegiatansForm.php" width="250">
 
     <br> 
 
     <span style="color:gray">Edit app/filament/Resource/Kegiatans/Tables/KegiatansTable.php</span>
+    <br> 
     <img src="image-4.png" alt="KegiatansTable.php" width="250">
 
-13. Form & Tabel Siswa 
+14. Form & Tabel Siswa 
     <span style="color:gray">Edit app/filament/Resource/Siswas/SiswaResource.php</span>
+    <br> 
     <img src="image-5.png" alt="SiswaResource.php" width="250">
 
     <br>
 
     <span style="color:gray">Edit app/filament/Resource/Siswas/Schemas/SiswaForm.php</span>
+    <br> 
     <img src="image-6.png" alt="SiswaForm.php" width="250">
 
     <br> 
 
     <span style="color:gray">Edit app/filament/Resource/Siswa/Tables/SiswaTable.php</span>
+    <br> 
     <img src="image-7.png" alt="SiswaTable.php" width="250">
 
     <br> 
 
     <span style="color:gray">Edit app/Models/Kegiatan.php</span>
+    <br> 
     <img src="image-8.png" alt="Kegiatan.php" width="250">
 
     <br> 
 
     <span style="color:gray">Edit app/Models/Siswa.php</span>
+    <br> 
     <img src="image-9.png" alt="Siswa.php" width="250">
 
-14. Branding Panel : Identitas SMP Mentari  
+15. Branding Panel : Identitas SMP Mentari  
 Buka app/Providers/Filament/AdminPanelProvider.php dan tambahkan :
 ```bash
     ->brandName('SMP Mentari')
@@ -143,7 +160,7 @@ Buka app/Providers/Filament/AdminPanelProvider.php dan tambahkan :
     ->sidebarCollapsibleOnDesktop(true). 
 ```
 
-15. Buat Halaman Depan (Public)
+16. Buat Halaman Depan (Public)
 Pada routes/web.php
 ```bash
     Route::get('/', function () {
