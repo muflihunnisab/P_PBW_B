@@ -193,12 +193,12 @@ dan resources/views/layouts/app.blade.php
 ## View
 1. Login  
 <br>
-![Login](Image/image-12.png)
+![Login](image-12.png)
 
 2. Admin
 <br>
-![Login](Image/image-13.png)
+![Login](image-13.png)
 
 3. Kegiatan
 <br>
-![Login](Image/image-14.png)
+![Login](image-14.png)
